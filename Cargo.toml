@@ -8,8 +8,8 @@ edition = "2021"
 [dependencies]
 axum = { version = "0.5.10", features = ["ws"] }
 clap = { version = "3.2.7", features = ["derive"] }
-futures = "0.3.21"
 html_editor = "0.5.1"
+lazy_static = "1.4.0"
 notify = "4.0.17"
 tokio = { version = "1.19.2", features = ["full"] }
 toml = "0.5.9"
